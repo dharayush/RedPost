@@ -1,11 +1,5 @@
 # import requests module 
-import requests 
+import sklearn
 import streamlit as st  
-# Making a get request 
-response = requests.get('https://api.github.com/') 
-  
-# print response 
-st.write(response) 
-  
-# print links 
-st.write(response.links) 
+
+st.write(sklearn. __version__)
